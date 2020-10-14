@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Important when making the website responsive/mobile friendly-->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>  -->
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="img/calculator-favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="screen">
+            <div class="expressionScreen jsExpressionScreen"></div> 
+            <div class="resultScreen jsResultScreen">0</div>     
+        </div>
+        <div class="buttons">
+            <div class="column column-1">
+                <button disabled class="button jsButton">Rad</button>
+                <button disabled class="button jsButton">Inv</button>
+                <button disabled class="button jsButton">Pi</button>
+                <button disabled class="button jsButton">e</button>
+                <button disabled class="button jsButton">Ans</button>
+            </div>
+            <div class="column column-2">
+                <button disabled class="button jsButton">Deg</button>
+                <button disabled class="button jsButton">sin</button>
+                <button disabled class="button jsButton">cos</button>
+                <button disabled class="button jsButton">tan</button>
+                <button disabled class="button jsButton">EXP</button>
+            </div>
+            <div class="column column-3">
+                <button disabled class="button jsButton">x!</button>
+                <button disabled class="button jsButton">ln</button>
+                <button disabled class="button jsButton">log</button>
+                <button disabled class="button jsButton">sq</button>
+                <button disabled class="button jsButton">xy</button>
+            </div>
+            <div class="column column-4">
+                <button value="(" class="button jsButton">(</button>
+                <button value="7" class="button button--number jsButton">7</button>
+                <button value="4" class="button button--number jsButton">4</button>
+                <button value="1" class="button button--number jsButton">1</button>
+                <button value="0" class="button button--number jsButton">0</button>
+            </div>
+            <div class="column column-5">
+                <button value=")" class="button jsButton">)</button>
+                <button value="8" class="button button--number jsButton">8</button>
+                <button value="5" class="button button--number jsButton">5</button>
+                <button value="2" class="button button--number jsButton">2</button>
+                <button value="." class="button button--number jsButton">.</button>
+            </div>
+            <div class="column column-6">
+                <button value="%" class="button jsButton">%</button>
+                <button value="9" class="button button--number jsButton">9</button>
+                <button value="6" class="button button--number jsButton">6</button>
+                <button value="3" class="button button--number jsButton">3</button>
+                <button value="Enter" class="button button--is jsButton">=</button>
+            </div> 
+            <div class="column column-7">
+                <button value="Delete" class="button jsButton">AC</button>
+                <button value="/" class="button jsButton">÷</button>
+                <button value="*" class="button jsButton">*</button>
+                <button value="-" class="button jsButton">-</button>
+                <button value="+" class="button jsButton">+</button>
+            </div> 
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
